@@ -20,5 +20,5 @@ jobs:
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
         repository: mariamkhaled/webapp
-        dockerfile: mariamkhaled/Dockerfile
+        dockerfile: Market-Web-Application/Dockerfile
         tags: latest
